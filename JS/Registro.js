@@ -21,7 +21,7 @@ form.addEventListener("submit", e => {
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ // Expresión regular para validar el formato de correo electrónico
     let regexUsuario = /^[a-zA-Z0-9]+$/; // Expresión regular para validar el formato de usuario
     let regexLetras = /^[A-Za-z\s]+$/; // Expresión regular para validar que solo se ingresen letras
-    let regexPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&{}()[\]^<>\\|_~.'"#,])([A-Za-z\d@$!%*?&{}()[\]^<>\\|_~.'"#,]){8,}$/; // Expresión regular para validar la fortaleza de la contraseña
+    let regexPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&{}()[\]^<>\\|_~.'"#,])([A-Za-z\d@$!%*?&{}()[\]^<>\\|_~.'"#,]){8,}$/; // Expresión regular para validar la contraseña
 
     parrafo.innerHTML = ""; // Limpiar el contenido del párrafo de advertencias
 
